@@ -1,0 +1,163 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  letter-spacing: 1;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  background-color: #cef5e3;
+  color: #0e8951;
+}
+
+:focus {
+  outline: none;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 30px;
+}
+h2,
+h3 {
+  font-weight: 500;
+  color: #807f7f;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 2;
+}
+
+h2 span,
+h3 span {
+  color: #0e8951;
+  font-weight: 600;
+}
+
+form {
+  font-size: 20px;
+  padding: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 440px;
+  background-color: #f8fffb;
+}
+.form-res {
+  background-color: #f8fffb;
+  padding: 60px;
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+}
+
+.form-res--sub {
+  display: flex;
+  justify-content: space-around;
+}
+
+label {
+  color: #807f7f;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0e8951;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: transparent;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.dollar-sign {
+  font-size: 34px;
+  color: #0e8951;
+  display: inline;
+  margin: 0;
+}
+
+#billAmt {
+  font-size: 34px;
+  border-bottom: 1px solid #807f7f;
+  width: 40%;
+}
+
+.total-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.tip-selector {
+  display: block;
+}
+
+.tip-selector button {
+  background-color: white;
+  padding: 10px 20px;
+  width: fit-content;
+  margin: 4px 0;
+  box-shadow: 4px 4px 5px #6fbc99;
+}
+
+#minus,
+#plus {
+  color: #0e8951;
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.split-calculator {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.split-calculator input {
+  font-size: 34px;
+  text-align: center;
+  width: 60px;
+}
+
+.split-calculator button {
+  background-color: transparent;
+}
+
+#calculateBtn,
+#reloadBtn {
+  padding: 12px 0;
+  width: 100%;
+  color: #f8fffc;
+  background-color: #0e8951;
+}
+
+#reloadBtn {
+  color: #0e8951;
+  background-color: #f8fffb;
+  border: 1px solid #0e8951;
+}
+
+.tip:focus {
+  transition: all 400ms ease;
+}
